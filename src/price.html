@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Расписание и цены</title>
+  </head>
+  <body>
+    <div class="wrapper" >
+      <div id="app" class="template-page price-page">
+          <div class="header">
+            <header-component title = 'Расписание и цены' image = 'schedule-image'/>
+          </div>
+          <section>
+              <breadcrumbs-component title = 'Расписание и цены'/>
+          </section>
+
+          <section class="section first-section">
+           <div class="container">
+             <h2 class="margbot30">Расписание для взрослых</h2>
+             <table class="table stand-table">
+               <caption>Расписание для взрослых</caption>
+                <thead>
+                  <tr>
+                    <th>Тип тренировки</th>
+                    <th>Дни недели</th>
+                    <th>Время</th>
+                    <th>Стоимость</th>
+                  </tr>
+               </thead>
+               <tbody> 
+                <tr>
+                  <td class="semibold">Групповая тренировка <br> с тренером</td>
+                  <td>Понедельник-Суббота</td>
+                  <td>18:30 - 20:00</td>
+                  <td rowspan="5">
+                    <p class="semibold">  Разовое посещение - <span class="accent"> 2 000 тг</span></p>                  
+                    <p class="semibold">  Месячный абонемент - <span class="accent"> 15 000 тг</span></p>
+                  </td>
+                </tr>
+                <tr>
+                 <td class="semibold" rowspan="4">Самостоятельные <br>тренировки</td>
+                  <td>Понедельник, Среда, Пятница</td>
+                  <td>10:00 - 12:00 <br> 16:00 - 22:00</td>
+                </tr>
+                <tr>
+                  <td>Вторник, Четверг</td>
+                  <td>16:00 - 22:00</td>
+                </tr>
+                <tr>
+                  <td>Суббота</td>
+                  <td>09:00 - 22:00</td>
+                </tr>
+                <tr>
+                  <td>Воскресенье</td>
+                  <td>10:00 - 16:00</td>
+                </tr>
+               </tbody>
+             </table>
+           </div>
+          </section>
+
+          <section class="section">
+           <div class="container">
+             <h2 class="margbot30">Расписание для детей</h2>
+             <table class="table stand-table">
+               <caption>Расписание для детей</caption>
+                <thead>
+                  <tr>
+                    <th>возраст</th>
+                    <th>Дни недели</th>
+                    <th>Время</th>
+                    <th>Стоимость</th>
+                  </tr>
+               </thead>
+               <tbody> 
+                <tr>
+                  <td class="semibold" rowspan="2">Возраст 7+</td>
+                  <td>Понедельник, Среда, Пятница</td>
+                  <td>10:00 - 11:30</td>
+                  <td rowspan="3">
+                    <p class="semibold">  Разовое посещение - <span class="accent"> 2 000 тг</span></p>                  
+                    <p class="semibold">  Месячный абонемент - <span class="accent"> 15 000 тг</span></p>
+                  </td>
+                </tr>
+                <tr>                 
+                  <td>Вторник, Четверг, Суббота</td>
+                  <td>16:00 - 17:30</td>
+                </tr>
+                <tr>
+                  <td class="semibold">Возраст 10+</td>
+                  <td>Понедельник, Среда, Пятница</td>
+                  <td>16:00 - 17:30</td>
+                </tr>
+               </tbody>
+             </table>
+           </div>
+          </section>
+
+          <section class="section">
+            <div class="container">
+              <h2>Персональные тренировки для детей и взрослых (по записи)</h2>
+              <p class="margbot30">Суббота и воскресенье, 12:00 – 13:00, 14:00 – 15:00</p>
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th>1 человек</th>
+                    <th>2 человека</th>
+                    <th>3 человека</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>4 000 тенге</td>
+                    <td>6 000 тенге</td>
+                    <td>8 000 тенге</td>
+                  </tr>
+                </tbody>
+              </table>
+              <p>Приходите за 10 минут до занятия. <span class="bolder"> Предварительная запись обязательна!</span></p>
+            </div>
+          </section>
+          
+          <section class="section">
+            <div class="container">
+              <div class="description-block">
+                <p>Пробные, разовые тренировки по выходным, продолжительностью 1 час. Суббота и воскресенье с 10:00 до 11:00. <span class="accent">Тренировка бесплатная</span> как для детей, так и для взрослых. 
+                  Приходите за 10 минут до занятия. Предварительная запись не обязательна.</p>
+              </div>
+
+            </div>
+          </section>
+        
+        <div class="footer">
+          <footer-component />
+        </div>
+
+        
+      </div>
+      <!-- end #app wrapper -->
+    </div>
+    <!-- end main wrapper -->
+    <div id="pageid" data-pageName="price"></div>
+  </body>
+</html>

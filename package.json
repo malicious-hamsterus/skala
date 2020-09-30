@@ -1,54 +1,57 @@
 {
-  "name": "skala",
+  "name": "skalaboulder",
   "version": "1.0.0",
-  "description": "js env starter",
+  "description": "My template",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server --mode development",
-    "build": "webpack --mode production",
-    "lint": "eslint .",
-    "test": "jest",
-    "coverage": "jest --coverage",
-    "preshow:coverage": "npm run coverage",
-    "show:coverage": "live-server coverage/lcov-report",
-    "preshow:dist": "npm run build",
-    "show:dist": "live-server dist"
+    "dev": "webpack-dev-server --open --config ./build/webpack.dev.conf.js",
+    "build": "webpack --config ./build/webpack.build.conf.js"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 3 version"
+  ],
+  "dependencies": {
+    "vue": "^2.6.12",
+    "vue-yandex-maps": "^0.10.9"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.11.4",
+    "@babel/preset-env": "^7.11.0",
+    "autoprefixer": "^9.8.6",
+    "babel-loader": "^8.1.0",
+    "copy-webpack-plugin": "^6.0.3",
+    "css-loader": "^4.2.2",
+    "cssnano": "^4.1.10",
+    "file-loader": "^6.0.0",
+    "html-webpack-plugin": "^4.3.0",
+    "mini-css-extract-plugin": "^0.9.0",
+    "node-sass": "^4.14.1",
+    "postcss-loader": "^3.0.0",
+    "sass-loader": "^9.0.3",
+    "style-loader": "^1.2.1",
+    "vue-loader": "^15.9.3",
+    "vue-style-loader": "^4.1.2",
+    "vue-template-compiler": "^2.6.12",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0",
+    "webpack-merge": "^5.1.2"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/malicious-hamsterus/skala.git"
   },
-  "bugs": {
-    "url": "https://github.com/malicious-hamsterus/skala.git"
-  },
-  "homepage": "https://github.com/malicious-hamsterus/skala.git#readme",
-  "author": "malicious.hamsterus",
-  "license": "ISC",
-  "devDependencies": {
-    "@babel/cli": "^7.8.4",
-    "@babel/core": "^7.9.0",
-    "@babel/preset-env": "^7.9.5",
-    "babel-jest": "^25.4.0",
-    "babel-loader": "^8.1.0",
-    "css-loader": "^3.5.3",
-    "eslint": "^6.8.0",
-    "eslint-config-airbnb-base": "^14.1.0",
-    "eslint-plugin-import": "^2.20.2",
-    "html-loader": "^1.1.0",
-    "html-webpack-plugin": "^4.2.0",
-    "jest": "^25.4.0",
-    "live-server": "^1.2.1",
-    "mini-css-extract-plugin": "^0.9.0",
-    "webpack": "^4.43.0",
-    "webpack-cli": "^3.3.11",
-    "webpack-dev-server": "^3.11.0"
-  },
-  "dependencies": {
-    "core-js": "^3.6.5"
-  },
   "keywords": [
     "skala",
+    "boulder",
     "landing",
-    "page"
-  ]
+    "site"
+  ],
+  "author": "malicious.hamsterus",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/malicious-hamsterus/skala/issues"
+  },
+  "homepage": "https://github.com/malicious-hamsterus/skala#readme"
 }
