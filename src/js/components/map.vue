@@ -41,7 +41,7 @@ export default {
     controls:[],
     coords: [43.240015, 76.929849],
     coordsMarker: [43.240010, 76.927036],
-    zoom: 17,
+    zoom: 16,
     scrollzoom: false,
   })
 }
