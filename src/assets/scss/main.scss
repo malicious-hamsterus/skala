@@ -225,6 +225,17 @@ section,
   }  
 }
 
+.phone-href {
+    font-size: 24px;
+    line-height: 158.69%;
+    color: $cta-color;
+    display: inline-block;
+    margin-right: 10px;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
 .main-menu {
   display: flex;
   justify-content: space-between;
@@ -243,7 +254,19 @@ section,
   }
   a {    
     color: $default-color;
-
+    &.activeLink {      
+      display: block;
+      position: relative;
+      color: $cta-color;
+        &::after {
+          content: '';
+          width: 100%;
+          height: 2px;
+          background-color: $cta-color;
+          display: block;
+          position: absolute;
+        }
+    }
   }
   ul {
     display: flex;
@@ -453,11 +476,17 @@ section,
   justify-content: space-between;
   padding-top: 70px; 
   flex-wrap: wrap;
+  &.index-coaches-block{
+    img {
+      margin-bottom: 0;
+    }
+  }
   img {
     margin-bottom: 30px;
   }
   .card {
-    max-width: calc(33% - 60px);
+    max-width: calc(33% - 30px);
+    margin-bottom: 30px;
     span {
       display: block;
     }
@@ -626,6 +655,9 @@ section,
 .accent {
   font-weight: 500;
   color: $cta-color;
+}
+.accent-color {
+  color: $cta-color !important;
 }
 
 .template-page .semibold {
@@ -893,7 +925,7 @@ footer .container{
       width: 30px;
       height: 30px;
       border-radius: 50%;
-      opacity: 0.5;
+      opacity: 0.7;
       &:hover {
         opacity: 1;
       }
@@ -904,6 +936,10 @@ footer .container{
     }
     .inst {
       background-image: url(../../assets/img/inst.svg);
+      margin-right: 30px;
+    }
+    .fb {
+      background-image: url(../../assets/img/fb.svg);
     }
   }
   .policy,

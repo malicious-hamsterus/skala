@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
     if(page) {
         for(let link of menuCollection) {
             if (link.dataset.page === page) {
-                link.style = 'text-decoration:underline'
+                link.classList.add('activeLink');
             }
         }
     }
