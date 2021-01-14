@@ -1,7 +1,7 @@
 <template>
     <header class="normal-header" :class=image>
         <div><mainmenu /></div>
-        <h1 class="center-text">{{title}}<br/>{{subtitle}} <br><span class='accent bolder'>{{orange}}</span></h1>
+        <h1 class="center-text">{{title}} <br><span class='accent bolder'>{{orange}}</span></h1>
     </header>
 </template>
 

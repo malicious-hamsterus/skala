@@ -9,14 +9,14 @@
         </div>
         <nav>
           <ul class="passMenuList">
-              <li><a data-page="price" href="./price.html">Цены</a></li>
-              <li><a data-page="schedule" href="./schedule.html">Расписание</a></li>
+              <li><a data-page="price-page" href="./price_schedule.html">Цены</a></li>
+              <!-- <li><a data-page="schedule" href="./schedule.html">Расписание</a></li> -->
               <li><a data-page="adultclimbing" href="./adultclimbing.html">Взрослые</a></li>
               <li><a data-page="child" href="./child.html">Дети</a></li>
               <li><a data-page="tuyksu" href="./tuyksu.html">Детский лагерь</a></li>
-              <li><a data-page="alpin" href="./alpin.html">Альпинизм</a></li>
-              <li><a data-page="about" href="./about.html">О нас</a></li>
-              <li><a href="#contacts">Контакты</a></li>
+              <!-- <li><a data-page="alpin" href="./alpin.html">Альпинизм</a></li> -->
+              <!-- <li><a data-page="about" href="./about.html">О нас</a></li> -->
+              <!-- <li><a href="#contacts">Контакты</a></li> -->
           </ul>
         </nav>
       </div>
@@ -46,14 +46,15 @@
         </a>
         <nav class="desktop-menu">
             <ul class="originalListMenu">
-              <li><a data-page="price" href="./price.html">Цены</a></li>
-              <li><a data-page="schedule" href="./schedule.html">Расписание</a></li>
+              <li><a data-page="price-page" href="./price_schedule.html">Цены</a></li>
+              <!-- <li><a data-page="schedule" href="./schedule.html">Расписание</a></li> -->
               <li><a data-page="adultclimbing" href="./adultclimbing.html">Взрослые</a></li>
               <li><a data-page="child" href="./child.html">Дети</a></li>
               <li><a data-page="tuyksu" href="./tuyksu.html">Детский лагерь</a></li>
-              <li><a data-page="alpin" href="./alpin.html">Альпинизм</a></li>
-              <li><a data-page="about" href="./about.html">О нас</a></li>
-              <li><a href="#contacts">Контакты</a></li>
+              <li><a data-page="gallery" href="./gallery.html">Фотогалерея</a></li>
+              <!-- <li><a data-page="alpin" href="./alpin.html">Альпинизм</a></li> -->
+              <!-- <li><a data-page="about" href="./about.html">О нас</a></li> -->
+              <!-- <li><a href="#contacts">Контакты</a></li> -->
             </ul>
         </nav>  
         <div class="phone-desktop"><a href="">+ 7 777 571 6006</a></div>

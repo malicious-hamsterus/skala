@@ -7,10 +7,11 @@
               <a href="tel:+77775716006">+ 7 777 571 6006</a>
               <a href="tel:+77773160001">+ 7 777 316 0001</a>
               <p class="social">Соц сети 
-                <a target="_blank" href="https://vk.com/public189782356" class="vk"></a>
+                <!-- <a target="_blank" href="https://vk.com/public189782356" class="vk"></a> -->
                 <a target="_blank" href="https://www.instagram.com/skala_boulder/" class="inst"></a>
                 <a target="_blank" href="https://www.facebook.com/skalaboulder" class="fb"></a>
               </p>
+              <p>Адрес: Абая, 44, Дворец Спорта им. Балуана Шолака, вход со стороны улицы Байтурсынова</p>
             </div>
           </div>
         </template>
@@ -31,8 +32,10 @@
         opacity: 1;
       }
     }
-    .vk {
+    & a:first-child{
       margin-left: 30px;
+    }
+    .vk {
       background-image: url(../../assets/img/vk.svg);
     }
     .inst {
