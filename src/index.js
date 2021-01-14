@@ -9,7 +9,16 @@ import './assets/scss/main.scss'
 
 // Vue.js
 window.Vue = require('vue')
-
+import VueLazyLoad from 'vue-lazyload'
+Vue.use(VueLazyLoad)
+import LightBox from 'vue-image-lightbox'
+ 
+export default {
+  components: {
+    LightBox,
+  },
+}
+require('vue-image-lightbox/dist/vue-image-lightbox.min.css')
 // Vue components (for use in html)
 Vue.component('example-component', require('./js/components/Example.vue').default)
 Vue.component('mainmenu', require('./js/components/Mainmenu.vue').default)
@@ -19,6 +28,7 @@ Vue.component('footer-component', require('./js/components/footer.vue').default)
 Vue.component('breadcrumbs-component', require('./js/components/breadcrumbs.vue').default)
 Vue.component('description-phone-component', require('./js/components/description-phone.vue').default)
 Vue.component('map-ya', require('./js/components/map.vue').default)
+Vue.component('gallery', require('./js/components/gallery.vue').default)
 
 import YmapPlugin from 'vue-yandex-maps'
 
