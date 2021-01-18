@@ -8,7 +8,7 @@
               <a href="tel:+77773160001">+ 7 777 316 0001</a>
               <div class="social">
                 <!-- <a target="_blank" href="https://vk.com/public189782356" class="vk"></a> -->
-                <a target="_blank" href="https://www.instagram.com/skala_boulder/" class="inst"><span class="social-deskript"> @skalaboulder</span></a>
+                <a target="_blank" href="https://www.instagram.com/skalaboulder/" class="inst"><span class="social-deskript"> @skalaboulder</span></a>
                 <a target="_blank" href="https://www.instagram.com/boulder_monkey/" class="inst"><span class="social-deskript">@bouldermonkey</span></a>
                 <a target="_blank" href="https://www.facebook.com/skalaboulder" class="fb"><span class="social-deskript">skalaboulder</span></a>
               </div>
