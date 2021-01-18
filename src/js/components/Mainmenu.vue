@@ -6,18 +6,30 @@
           <span></span>
           <span></span>
           <span></span>
+          <div class="close-img">
+          </div>
         </div>
         <nav>
-          <ul class="passMenuList">
-              <li><a data-page="price-page" href="./price_schedule.html">Цены</a></li>
-              <!-- <li><a data-page="schedule" href="./schedule.html">Расписание</a></li> -->
-              <li><a data-page="adultclimbing" href="./adultclimbing.html">Взрослые</a></li>
-              <li><a data-page="child" href="./child.html">Дети</a></li>
-              <li><a data-page="tuyksu" href="./tuyksu.html">Детский лагерь</a></li>
-              <!-- <li><a data-page="alpin" href="./alpin.html">Альпинизм</a></li> -->
-              <!-- <li><a data-page="about" href="./about.html">О нас</a></li> -->
-              <!-- <li><a href="#contacts">Контакты</a></li> -->
-          </ul>
+          <div class="passMenuList">
+            <div class="menu-list">
+              <ul>
+                <li><a data-page="price-page" href="./price_schedule.html">Цены/Расписание</a></li>
+                <!-- <li><a data-page="schedule" href="./schedule.html">Расписание</a></li> -->
+                <li><a data-page="adultclimbing" href="./adultclimbing.html">Взрослые</a></li>
+                <li><a data-page="child" href="./child.html">Дети</a></li>
+                <li><a data-page="tuyksu" href="./tuyksu.html">Детский лагерь</a></li>
+                <li><a data-page="gallery" href="./gallery.html">Фотогалерея</a></li>
+                <!-- <li><a data-page="alpin" href="./alpin.html">Альпинизм</a></li> -->
+                <li><a data-page="about" href="./about.html">О нас</a></li>
+                <!-- <li><a href="#contacts">Контакты</a></li> -->
+              </ul>
+            </div>
+            <div class="menu-contacts">
+              <a href="tel:+ 7 777 571 6006" class="menu-contacts-phone">+ 7 777 571 6006</a>
+              <p class="menu-contacts-adress">г. Алматы, Абая, 44 (Дворец спорта им. Б. Шолака)</p>
+              <a href="" class="menu-contacts-insta">@skalaboulder</a>
+            </div>
+          </div>
         </nav>
       </div>
         <a class="logo" href="./">
@@ -46,14 +58,14 @@
         </a>
         <nav class="desktop-menu">
             <ul class="originalListMenu">
-              <li><a data-page="price-page" href="./price_schedule.html">Цены</a></li>
+              <li><a data-page="price-page" href="./price_schedule.html">Цены/Расписание</a></li>
               <!-- <li><a data-page="schedule" href="./schedule.html">Расписание</a></li> -->
               <li><a data-page="adultclimbing" href="./adultclimbing.html">Взрослые</a></li>
               <li><a data-page="child" href="./child.html">Дети</a></li>
               <li><a data-page="tuyksu" href="./tuyksu.html">Детский лагерь</a></li>
               <li><a data-page="gallery" href="./gallery.html">Фотогалерея</a></li>
               <!-- <li><a data-page="alpin" href="./alpin.html">Альпинизм</a></li> -->
-              <!-- <li><a data-page="about" href="./about.html">О нас</a></li> -->
+              <li><a data-page="about" href="./about.html">О нас</a></li>
               <!-- <li><a href="#contacts">Контакты</a></li> -->
             </ul>
         </nav>  

@@ -216,7 +216,7 @@ section,
     @media screen and (max-width: $phoneWidth) {
       padding: 10px 0;
       p {
-        font-size: 13px;
+        font-size: 17px;
       }
       h2 {
         font-size: 25px;
@@ -242,6 +242,7 @@ section,
   padding: 30px 45px;
   color: $default-color;
   position: absolute;
+  flex-direction: row-reverse;
   top: 0;
   right: 0;
   left: 0;
@@ -309,13 +310,13 @@ section,
       display: none;
     }
     .collapse-menu {
-      display: block;
+      display: flex;
       .passMenuList {
         display: none;
       }        
       &.active {
         .passMenuList {
-          display: block;
+          display: flex;
         }
       }
     }
@@ -689,6 +690,7 @@ section,
       text-decoration: underline;
     }
   }
+  
 }
 
 .child {
@@ -961,11 +963,32 @@ footer .container{
   ul {
     display: flex;
     flex-direction: column;
+    width: 100%;
+  }
+  .close-img {
+    display: none;
+    color: #fff;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url(../img/close-menu.svg);
+    background-position: center;
+    background-repeat: no-repeat;
   }
   &.active {
+    .close-img {
+      display: block;
+    }
+    .passMenuList{
+      animation: menu-show 0.5s ease-in-out;
+    }
     .menu-btn {
-      background-color: #fff;
+      background-color: #000;
+      border-color: #000;
       span {background-color: #000;}
+      z-index: 500;
     }
   }
   .menu-btn {
@@ -979,6 +1002,7 @@ footer .container{
     justify-content: center;
     align-items: center;
     padding: 5px;
+    padding-bottom: 3px;
     span {
       display: block;
       height: 1px;
@@ -991,18 +1015,73 @@ footer .container{
     }
   }
   .passMenuList {
-    position: absolute;
-    padding: 10px;
-    background-color: #fff;
-    border-radius: 5px;
-    a {color: #000;}
+    &.hide {
+      animation: menu-show 0.5s ease-in-out reverse;
+    }
+    z-index: 200;
+    position: relative;
+    margin-top: -20px;
+    ul {
+      margin-top: 40px;
+      display: flex;
+      align-items: center;
+    }
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 22px;
+    background-color: #000;
+    position: fixed;
+    height: 90vh;
+    min-height: 365px;
+    border: none;
+    border-radius: 0;
+    top: 0;
+    right: 0;
+    left: 0;
+    width: 100vw;
+    align-items: center;
+    a {color: #fff;}
+    li {
+      margin-right: 0;
+      margin-bottom: 10px;
+    }
     li:hover {
       a{
         text-decoration: underline;
       }
     }
   }
+  .menu-contacts {
+    border-top: 1px solid #ffffff;
+    padding-top: 20px;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    p {
+      color: #fff;
+      font-size: 12px;
+      margin-bottom: 0;
+    }
+    a {
+      font-size: 12px;
+    }
+  }
+  .menu-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
 }
+
+@keyframes menu-show {
+  0%   { top: -500px; }
+  100% { top: 0; }
+}
+
 
 
 

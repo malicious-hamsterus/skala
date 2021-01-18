@@ -2,15 +2,16 @@
           <template>
           <div class="description-phone">
             <div class="container">
-              <p>По всем оставшимся вопросам вы можете связаться с нами:</p>
-              <a href="mailto:skalaboulder@gmail.com">skalaboulder@gmail.com</a>
+              <p>Контакты:</p>
+              <!-- <a href="mailto:skalaboulder@gmail.com">skalaboulder@gmail.com</a> -->
               <a href="tel:+77775716006">+ 7 777 571 6006</a>
               <a href="tel:+77773160001">+ 7 777 316 0001</a>
-              <p class="social">Соц сети 
+              <div class="social">
                 <!-- <a target="_blank" href="https://vk.com/public189782356" class="vk"></a> -->
-                <a target="_blank" href="https://www.instagram.com/skala_boulder/" class="inst"></a>
-                <a target="_blank" href="https://www.facebook.com/skalaboulder" class="fb"></a>
-              </p>
+                <a target="_blank" href="https://www.instagram.com/skala_boulder/" class="inst">@skalaboulder</a>
+                <a target="_blank" href="https://www.instagram.com/boulder_monkey/" class="inst">@bouldermonkey</a>
+                <a target="_blank" href="https://www.facebook.com/skalaboulder" class="fb">skalaboulder</a>
+              </div>
               <p>Адрес: Абая, 44, Дворец Спорта им. Балуана Шолака, вход со стороны улицы Байтурсынова</p>
             </div>
           </div>
@@ -43,6 +44,26 @@
     }
     .fb {
       background-image: url(../../assets/img/fb.svg);
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    & .container {
+      padding: 10px;
+    }
+    .social {
+      display: flex;
+      flex-direction: column;
+      a {
+        padding-left: 40px;
+        border-radius: 0;
+        background-repeat: no-repeat;
+        width: 100%;
+        
+        &:first-child {
+          margin-left: 0 !important;
+        }
+      }
     }
   }
   </style>
