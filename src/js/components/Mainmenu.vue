@@ -13,11 +13,11 @@
           <div class="passMenuList">
             <div class="menu-list">
               <ul>
-                <li><a data-page="price-page" href="./price_schedule.html">Цены/Расписание</a></li>
+                <!-- <li><a data-page="price-page" href="./price_schedule.html">Цены/Расписание</a></li> -->
                 <!-- <li><a data-page="schedule" href="./schedule.html">Расписание</a></li> -->
                 <li><a data-page="adultclimbing" href="./adultclimbing.html">Взрослые</a></li>
                 <li><a data-page="child" href="./child.html">Дети</a></li>
-                <li><a data-page="tuyksu" href="./tuyksu.html">Детский лагерь</a></li>
+                <!-- <li><a data-page="tuyksu" href="./tuyksu.html">Детский лагерь</a></li> -->
                 <li><a data-page="gallery" href="./gallery.html">Фотогалерея</a></li>
                 <!-- <li><a data-page="alpin" href="./alpin.html">Альпинизм</a></li> -->
                 <li><a data-page="about" href="./about.html">О нас</a></li>
@@ -25,7 +25,7 @@
               </ul>
             </div>
             <div class="menu-contacts">
-              <a href="tel:+ 7 777 571 6006" class="menu-contacts-phone">+ 7 777 571 6006</a>
+              <a href="tel:+77077380907" class="menu-contacts-phone">+ 7 (707) 738-09-07</a>
               <p class="menu-contacts-adress">г. Алматы, Абая, 44 (Дворец спорта им. Б. Шолака)</p>
               <a href="" class="menu-contacts-insta">@skalaboulder</a>
             </div>
@@ -58,18 +58,18 @@
         </a>
         <nav class="desktop-menu">
             <ul class="originalListMenu">
-              <li><a data-page="price-page" href="./price_schedule.html">Цены/Расписание</a></li>
+              <!-- <li><a data-page="price-page" href="./price_schedule.html">Цены/Расписание</a></li> -->
               <!-- <li><a data-page="schedule" href="./schedule.html">Расписание</a></li> -->
               <li><a data-page="adultclimbing" href="./adultclimbing.html">Взрослые</a></li>
               <li><a data-page="child" href="./child.html">Дети</a></li>
-              <li><a data-page="tuyksu" href="./tuyksu.html">Детский лагерь</a></li>
+              <!-- <li><a data-page="tuyksu" href="./tuyksu.html">Детский лагерь</a></li> -->
               <li><a data-page="gallery" href="./gallery.html">Фотогалерея</a></li>
               <!-- <li><a data-page="alpin" href="./alpin.html">Альпинизм</a></li> -->
               <li><a data-page="about" href="./about.html">О нас</a></li>
               <!-- <li><a href="#contacts">Контакты</a></li> -->
             </ul>
-        </nav>  
-        <div class="phone-desktop"><a href="">+ 7 777 571 6006</a></div>
+        </nav>
+        <div class="phone-desktop"><a href="">+ 7 (707) 738-09-07</a></div>
     </div>
 </template>
 

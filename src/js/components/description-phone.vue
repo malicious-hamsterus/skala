@@ -4,8 +4,7 @@
             <div class="container">
               <p>Контакты:</p>
               <!-- <a href="mailto:skalaboulder@gmail.com">skalaboulder@gmail.com</a> -->
-              <a href="tel:+77775716006">+ 7 777 571 6006</a>
-              <a href="tel:+77773160001">+ 7 777 316 0001</a>
+              <a href="tel:+77077380907">+ 7 707 738 0907</a>
               <div class="social">
                 <!-- <a target="_blank" href="https://vk.com/public189782356" class="vk"></a> -->
                 <a target="_blank" href="https://www.instagram.com/skalaboulder/" class="inst"><span class="social-deskript"> @skalaboulder</span></a>
@@ -45,7 +44,7 @@
       background-image: url(../../assets/img/fb.svg);
     }
   }
-  
+
   @media screen and (max-width: 768px) {
     & .container {
       padding: 10px;
@@ -62,7 +61,7 @@
         border-radius: 0;
         background-repeat: no-repeat;
         width: 100%;
-        
+
         &:first-child {
           margin-left: 0 !important;
         }
